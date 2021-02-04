@@ -1,0 +1,8 @@
+site_name: 'test docs for git account'
+
+nav:
+  - Overview: overview.md
+  - How To: index.md
+
+plugins:
+  - techdocs-core
