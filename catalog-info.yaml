@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: component-docs
   description: A test document to check git repos caching in backstage
@@ -11,6 +11,6 @@ metadata:
     - java
     
 spec:
-  type: website
+  type: service
   lifecycle: production
   owner: nidhi-sinha
