@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
-  name: component-docs-api-service
+  name: component-docs-component-service-linkapi
   description: A test document to check git repos caching in backstage
   labels:
     system: public-websites
@@ -14,16 +14,5 @@ spec:
   type: service
   lifecycle: production
   owner: nidhi-sinha
-  definition: |
-    openapi: "3.0.0"
-    info:
-      version: 1.0.0
-      title: Artist API
-      license:
-        name: MIT
-    servers:
-      - url: http://artist.spotify.net/v1
-    paths:
-      /artists:
-        get:
-          summary: List all artists
+  providesApis:
+    - weather-restful-api
