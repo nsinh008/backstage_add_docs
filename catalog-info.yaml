@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: component-docs
+  name: component-docs-api-service
   description: A test document to check git repos caching in backstage
   labels:
     system: public-websites
