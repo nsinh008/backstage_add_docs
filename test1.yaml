@@ -1,10 +1,14 @@
 apiVersion: backstage.io/v1alpha1
-kind: Resource
+kind: Group
 metadata:
-  name: artists-db
-  description: Stores artist details
+  name: infrastructure
+  description: The infra business unit
 spec:
-  type: database
-  owner: artist-relations-team
-  system: artist-engagement-portal
-  lifecycle: Infrastructure
+  type: business-unit
+  profile:
+    displayName: Infrastructure
+    email: infrastructure@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: ops
+  children: [backstage, other]
+  members: [nsinh008]
