@@ -11,4 +11,4 @@ spec:
   owner: NidhiSinha
   lifecycle: production
   definition:
-    $text: https://github.com/nsinh008/backstage_add_docs/weather.yaml
+    $text: https://github.com/nsinh008/backstage_add_docs/blob/main/weather.yaml
